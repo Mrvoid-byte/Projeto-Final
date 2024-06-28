@@ -26,3 +26,14 @@ document.getElementById('subscribeButton').addEventListener('click', function() 
       toastie.classList.remove('show');
     }, 3000);
   });
+function goToPage1() {
+  window.location.href = "/pages/item1.html";
+}
+
+function goToPage2() {
+  window.location.href = "/pages/item2.html";
+}
+
+function goToPage3() {
+  window.location.href = "/pages/item3.html";
+}
